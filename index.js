@@ -9,9 +9,6 @@ const questions = [
         name : 'title',
         message : 'What is the name of your project ?',
     }
-    {
-
-    }
 ];
 
 // TODO: Create a function to write README file
