@@ -13,14 +13,15 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFileSync(location,(data,"utf-8"))
+    fs.writeFile('./README.md',data,'utf-8')
+    console.log("file is sucessfully generated")
 }
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
     .then((response) => {
-        writeToFile('README.md',generateMarkdown(response))
+        writeToFile('README.md',(response))
         console.log(response);
     })
 }
