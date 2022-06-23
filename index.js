@@ -32,16 +32,36 @@ const questions = [
     {
         type: 'checkbox',
         name: 'License',
-        message:['Apache License 2.0','GNU','MIT','Rust','WordPress'],
+        message:'Choose the appropriate license for this project?',
+        choices:['Apache License','GNU','MIT','Rust','WordPress']
       
     }
     ,
     {
          type: 'input',
-         name: 'Contribute',
+         name: 'Contributing',
          message: 'Would you like other developers to contribute?',
     }
     ,
+    {
+        type: 'input',
+        name: 'questions',
+        message:'What do i do if i have any questions?',
+   }
+   ,
+   {
+    type: 'input',
+    name: 'gitHub username',
+    message:'Please provide your gitHub username ?',
+},
+  {
+   
+    type: 'input',
+    name: 'email',
+    message:'Please provide your email address?',
+   
+  }
+  ,
 ];
 
 // TODO: Create a function to write README file
