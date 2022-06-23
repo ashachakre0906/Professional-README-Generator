@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
+//// Import the filesystem module
 const fs = require("fs");
 const inquirer = require("inquirer");
-const generateReadMe = "./utils/generateMarkdown.js";
+const generateReadMe = require("./utils/generateMarkdown.js");
 // TODO: Create an array of questions for user input
 const questions = [
   {
@@ -17,8 +18,7 @@ const questions = [
   {
     type: "input",
     name: "Installation",
-    message:
-      "What are the steps required to install your project?",
+    message:"What are the steps required to install your project?",
   },
   {
     type: "input",
@@ -28,7 +28,7 @@ const questions = [
   {
     type: "checkbox",
     name: "License",
-    message: "Choose the appropriate license for this project?",
+    message: "Choose the appropriate license?",
     choices: ["Apache", "GNU", "MIT", "Mozilla", "IBM"],
   },
   {
@@ -43,8 +43,9 @@ const questions = [
   },
   {
     type: "input",
-    name: "gitHub username",
+    name: "username",
     message: "Please provide your gitHub username ?",
+    default:'Asha Chakre',
   },
   {
     type: "input",
@@ -55,19 +56,25 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  try {
-    fs.writeFile("generateReadMe", data, "utf-8", "err");
-    console.log("Your README.md file is sucessfully generated");
-  } catch (err) {
-    console.error(err);
-  }
-}
-
+    fs.writeFile(fileName, data,'utf-8',(err) =>{
+        if (err)
+        console.log(err);
+        else {
+            console.log('"Success! Your README.md file has been generated"')
+        }
+    })
+};
+//   try {
+//     fs.writeFile("generateReadMe", data, "utf-8", "err");
+//     console.log("Your README.md file is sucessfully generated");
+//   } catch (err) {
+//     console.error(err);
+//   }
 // TODO: Create a function to initialize app
 function init() {
-  console.log("Welcome to node.js,Get ready to answer the following prompts");
+  console.log("Welcome to Node,Are you ready to generate README.md");
   inquirer.prompt(questions).then((response) => {
-    writeToFile("./README.md", response);
+    writeToFile('README.md', response);
     console.log(response);
   });
 }
