@@ -12,28 +12,28 @@ const questions = [
   },
   {
     type: "input",
-    name: "Description",
+    name: "description",
     message: "Please provide a short description of your project?",
   },
   {
     type: "input",
-    name: "Installation",
+    name: "installation",
     message:"What are the steps required to install your project?",
   },
   {
     type: "input",
-    name: "Usage",
+    name: "usage",
     message: "Provide instructions and examples for use?",
   },
   {
     type: "list",
-    name: "License",
+    name: "license",
     message: "Choose the appropriate license?",
     choices: ["Apache 2.0", "Boost", "MIT", "Mozilla", "IBM","none"],
   },
   {
     type: "input",
-    name: "Contributing",
+    name: "contributing",
     message: "Would you like other developers to contribute?",
   },
   {
