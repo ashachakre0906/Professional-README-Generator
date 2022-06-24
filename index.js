@@ -26,10 +26,10 @@ const questions = [
     message: "Provide instructions and examples for use?",
   },
   {
-    type: "checkbox",
+    type: "list",
     name: "License",
     message: "Choose the appropriate license?",
-    choices: ["Apache", "GNU", "MIT", "Mozilla", "IBM"],
+    choices: ["Apache 2.0", "Boost", "MIT", "Mozilla", "IBM","none"],
   },
   {
     type: "input",
@@ -38,8 +38,8 @@ const questions = [
   },
   {
     type: "input",
-    name: "questions",
-    message: "What do i do if i have any questions?",
+    name: "tests",
+    message: "Did you write any test for your application?",
   },
   {
     type: "input",
@@ -56,7 +56,9 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data,'utf-8',(err) =>{
+  // console.log(fileName);
+  // console.log(data);
+    fs.writeFile(fileName, generateReadMe(data),'utf-8',(err) =>{
         if (err)
         console.log(err);
         else {
@@ -72,9 +74,9 @@ function writeToFile(fileName, data) {
 //   }
 // TODO: Create a function to initialize app
 function init() {
-  console.log("Welcome to Node,Are you ready to generate README.md");
+  console.log("Welcome to Node !!Are you ready to generate README.md");
   inquirer.prompt(questions).then((response) => {
-    writeToFile('README.md', response);
+    writeToFile('./README.md', response);
     console.log(response);
   });
 }
