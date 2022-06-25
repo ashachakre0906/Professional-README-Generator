@@ -74,7 +74,7 @@ function writeToFile(fileName, data) {
 //   }
 // TODO: Create a function to initialize app
 function init() {
-  console.log("Welcome to Node !!Are you ready to generate README.md");
+  console.log("Welcome to Node !!Are you ready to generate README.md file");
   inquirer.prompt(questions).then((response) => {
     writeToFile('./README.md', response);
     console.log(response);
