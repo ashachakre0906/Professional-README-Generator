@@ -86,7 +86,7 @@ ${renderLicenseSection(data.license)}
 ## Tests
 ${data.tests}
 ## Contact
-[Github](https://github.com/${data.username})<br>
+Github Repo URL: [Github](https://github.com/${data.username})<br>
 Email: ${data.email}
  `;
 }
