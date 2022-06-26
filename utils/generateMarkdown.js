@@ -27,7 +27,7 @@ function renderLicenseLink(license) {
   if (license === 'none') {
     return '';
   }
-  else return `[License](#license)`  
+  else return `(#license)`  
 
 }
 
@@ -86,7 +86,7 @@ ${renderLicenseSection(data.license)}
 ## Tests
 ${data.tests}
 ## Contact
-[Github](https://github.com/${data.username})
+[Github](https://github.com/${data.username})<br>
 Email: ${data.email}
  `;
 }
