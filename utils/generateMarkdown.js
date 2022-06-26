@@ -39,7 +39,7 @@ function renderLicenseSection(license) {
   }
   if(license === 'Apache 2.0'){
     return  `## License
-License use for the project is [Apache 2.0](https://opensource.org/licenses/Apache-2.0)`
+License use for the project is [License: Apache 2.0](https://opensource.org/licenses/Apache-2.0)`
   }
   else if (license === 'Boost'){
     return  `## License
