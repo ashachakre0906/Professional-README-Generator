@@ -40,23 +40,23 @@ function renderLicenseSection(license) {
   }
   if(license === 'Apache 2.0'){
     return  `## License
-License use for the project is[![License](https://opensource.org/licenses/Apache-2.0)`
+License use for the project is [License:Apache 2.0](https://opensource.org/licenses/Apache-2.0)`
   }
   else if (license === 'Boost'){
     return  `## License
-License use for the project is(https://www.boost.org/LICENSE_1_0.txt)`
+License use for the project is [License: Boost](https://www.boost.org/LICENSE_1_0.txt)`
   }
   else if (license === 'MIT'){
     return  `## License
-License use for the project is[![License: MIT](https://opensource.org/licenses/MIT)`
+License use for the project is [License: MIT](https://opensource.org/licenses/MIT)`
   }
   else if (license === 'Mozilla'){
     return  `## License
-License use for the project is[![License: MPL 2.0](https://opensource.org/licenses/MPL-2.0)`
+License use for the project is [License: MPL 2.0](https://opensource.org/licenses/MPL-2.0)`
   }
   else if (license === 'IBM'){
     return  `## License
-License use for the project is '[![License: IPL 1.0](https://opensource.org/licenses/IPL-1.0)`
+License use for the project is '[License: IPL 1.0](https://opensource.org/licenses/IPL-1.0)`
   }
   else if (license === 'none') {
     return '';
