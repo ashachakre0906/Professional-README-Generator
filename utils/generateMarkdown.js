@@ -40,23 +40,23 @@ function renderLicenseSection(license) {
   }
   if(license === 'Apache 2.0'){
     return  `## License
-    License use for the project is[![License](https://opensource.org/licenses/Apache-2.0)`
+License use for the project is[![License](https://opensource.org/licenses/Apache-2.0)`
   }
   else if (license === 'Boost'){
     return  `## License
-    License use for the project is(https://www.boost.org/LICENSE_1_0.txt)`
+License use for the project is(https://www.boost.org/LICENSE_1_0.txt)`
   }
   else if (license === 'MIT'){
     return  `## License
-    License use for the project is[![License: MIT](https://opensource.org/licenses/MIT)`
+License use for the project is[![License: MIT](https://opensource.org/licenses/MIT)`
   }
   else if (license === 'Mozilla'){
     return  `## License
-    License use for the project is[![License: MPL 2.0](https://opensource.org/licenses/MPL-2.0)`
+License use for the project is[![License: MPL 2.0](https://opensource.org/licenses/MPL-2.0)`
   }
   else if (license === 'IBM'){
     return  `## License
-    License use for the project is '[![License: IPL 1.0](https://opensource.org/licenses/IPL-1.0)`
+License use for the project is '[![License: IPL 1.0](https://opensource.org/licenses/IPL-1.0)`
   }
   else if (license === 'none') {
     return '';
@@ -64,32 +64,31 @@ function renderLicenseSection(license) {
 }
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `## title 
-  ${data.title}
-  ## License
-   ${renderLicenseBadge(data.license)}
-  ## Description
-  ${data.description}
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - ${renderLicenseLink(data.license)}
-  - [Tests](#tests)
-  - [Contact](#contact)
-  ## Installation
-  ${data.installation}
-  ## Usage
-   ${data.usage}
-  ## Contributing
-  ${data.contributing}
-  ${renderLicenseSection(data.license)}
-  ## tests
-   ${data.tests}
-  ## Contact
-   My Git hub username is${data.username}
-   My Git hub email is${data.email}
+return `## title 
+${data.title}
+## License
+${renderLicenseBadge(data.license)}
+## Description
+${data.description}
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- ${renderLicenseLink(data.license)}
+- [Tests](#tests)
+- [Contact](#contact)
+## Installation
+${data.installation}
+## Usage
+${data.usage}
+## Contributing
+${data.contributing}
+${renderLicenseSection(data.license)}
+## tests
+${data.tests}
+## Contact
+[Github](https://github.com/${data.username})
+Email: ${data.email}
  `;
 }
-
 module.exports = generateMarkdown;//exporting the variables, functions and objects into index.js
