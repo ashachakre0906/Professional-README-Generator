@@ -22,7 +22,7 @@ The application will be invoked by using the following command `node index.js`.
 node index.js
 ```
 ## Usage
-# Code Examples and Screenshots
+### Code Examples and Screenshots
 ***Function to render the License badge***
 
 <img src = "./assets/images/screenshot.png">
