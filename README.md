@@ -18,10 +18,10 @@ Examples
 ## Contributing
 yes
 ## License
-  This project is license under the [License: MIT](https://opensource.org/licenses/MIT)
+This project is license under the [License: MIT](https://opensource.org/licenses/MIT)
 ## Tests
 test.js
 ## Questions
-Github Repo URL: [Github](https://github.com/Asha Chakre)<br>
+Github Repo URL: [Github](https://github.com/0906)<br>
 Email: email adress
  
