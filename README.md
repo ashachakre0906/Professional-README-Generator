@@ -1,17 +1,18 @@
-# title
+# README Generator
 ## License
-![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 - [Tests](#tests)
-- [Contact](#contact)
+- [Questions](#questions)
 ## Description
-The purpose of this project to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.`fs` for writing to the file system and`inquirer`package for collecting user input.The application will be invoked by using the following command `node index.js`.
+The purpose of this project to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.`fs` for writing to the file system and`inquirer`package for collecting user input.
+The application will be invoked by using the following command `node index.js`.
 ## Application Demo
-![Site](./assets/readme-generator-demo.gif)
+<iframe src="https://drive.google.com/file/d/1JEvUXe9dDyd96IKUV4s-zD-dRa5q_IoY/preview" width="640" height="480" allow="autoplay"></iframe>
 ## Installation
 * Install Node in your computer by going to `https://nodejs.org/en/download/`
 * Create .gitignore file before installing any npm dependencies and include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked or uploaded to GitHub.
@@ -45,7 +46,7 @@ function writeToFile(fileName, data) {
 ```
 
 ## Contributing
-Not contributing at this time.
+not contributing at this time.
 ## License
 This project is license under the [License: MIT](https://opensource.org/licenses/MIT)
 ## Tests
@@ -58,4 +59,4 @@ We dont have any test at this moment.
 ## Questions
 Github Repo URL: [Github](https://github.com/ashachakre0906)<br>
 Email Address: chourpagar.asha@gmail.com
- 
+
