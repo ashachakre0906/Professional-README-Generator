@@ -39,23 +39,23 @@ function renderLicenseSection(license) {
   }
   if(license === 'Apache 2.0'){
     return  `## License
-License use for the project is [License: Apache 2.0](https://opensource.org/licenses/Apache-2.0)`
+This project is license under the [License: Apache 2.0](https://opensource.org/licenses/Apache-2.0)`
   }
   else if (license === 'Boost'){
     return  `## License
-License use for the project is [License: Boost](https://www.boost.org/LICENSE_1_0.txt)`
+  This project is license under the [License: Boost](https://www.boost.org/LICENSE_1_0.txt)`
   }
   else if (license === 'MIT'){
     return  `## License
-License use for the project is [License: MIT](https://opensource.org/licenses/MIT)`
+  This project is license under the [License: MIT](https://opensource.org/licenses/MIT)`
   }
   else if (license === 'Mozilla'){
     return  `## License
-License use for the project is [License: MPL 2.0](https://opensource.org/licenses/MPL-2.0)`
+  This project is license under the[License: MPL 2.0](https://opensource.org/licenses/MPL-2.0)`
   }
   else if (license === 'IBM'){
     return  `## License
-License use for the project is '[License: IPL 1.0](https://opensource.org/licenses/IPL-1.0)`
+  This project is license under thes '[License: IPL 1.0](https://opensource.org/licenses/IPL-1.0)`
   }
   else if (license === 'none') {
     return '';
@@ -63,7 +63,7 @@ License use for the project is '[License: IPL 1.0](https://opensource.org/licens
 }
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-return `## Title 
+return `
 ${data.title}
 ## License
 ${renderLicenseBadge(data.license)}
@@ -85,7 +85,7 @@ ${data.contributing}
 ${renderLicenseSection(data.license)}
 ## Tests
 ${data.tests}
-## Contact
+## Questions
 Github Repo URL: [Github](https://github.com/${data.username})<br>
 Email: ${data.email}
  `;
