@@ -13,7 +13,8 @@ The purpose of this project to create a command-line application that dynamicall
 The application will be invoked by using the following command `node index.js`.
 
 ## Application Demo
-<iframe src="https://drive.google.com/file/d/1JEvUXe9dDyd96IKUV4s-zD-dRa5q_IoY/preview" width="640" height="480" allow="autoplay"></iframe>
+
+https://user-images.githubusercontent.com/101746882/176041401-0493dc19-2ee0-46cb-88cc-aff0b40959c6.mp4
 
 ## Installation
 * Install Node in your computer by going to `https://nodejs.org/en/download/`
