@@ -22,6 +22,6 @@ This project is license under the [License: MIT](https://opensource.org/licenses
 ## Tests
 test.js
 ## Questions
-Github Repo URL: [Github](https://github.com/0906)<br>
-Email: email adress
+Github Repo URL: [Github](https://github.com/ashachakre0906)<br>
+Email: chourpagar.asha@gmail.com
  
