@@ -13,10 +13,11 @@ The application will be invoked by using the following command `node index.js`.
 - [Questions](#questions)
 ## Installation
 * Install Node in your computer by going to `https://nodejs.org/en/download/`
+* Create .gitignore file before installing any npm dependencies and include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked or uploaded to GitHub.
 * Create a new github repository and clone it to your local machine.
 * Navigate to the repo which you just created by typing`cd` command  and open it in your code editor by typing the command in your terminal `code .`
 * Open the terminal in your code editor,initialized the repository with a `package.json` file by running `npm init -y`.
-* Install the `Inquirer package`by typing the command `npm install inquirer` which will collect the user input.
+* Install the `Inquirer package`by entering teh command `npm install inquirer` which will collect the user inputs.
 * Application will be invoked by using the following command:
 ```bash
 node index.js
@@ -43,11 +44,11 @@ function writeToFile(fileName, data) {
 ```
 
 ## Contributing
-yes
+not contributing at this time.
 ## License
 This project is license under the [License: MIT](https://opensource.org/licenses/MIT)
 ## Tests
-test.js
+We dont have any test at this moment.
 ## Technologies Used
 ![Java Badge](https://img.shields.io/badge/language-Javascript-blue.svg)
 ![Node.js Badge](https://img.shields.io/badge/language-Node-yellow.svg)
