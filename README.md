@@ -11,7 +11,7 @@
 ## Description
 The purpose of this project to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.`fs` for writing to the file system and`inquirer`package for collecting user input.The application will be invoked by using the following command `node index.js`.
 ## Application Demo
-![Site](./assets/images/readme-generator-demo.gif)
+![Site](./assets/readme-generator-demo.gif)
 ## Installation
 * Install Node in your computer by going to `https://nodejs.org/en/download/`
 * Create .gitignore file before installing any npm dependencies and include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked or uploaded to GitHub.
@@ -27,7 +27,7 @@ node index.js
 ### Code Examples and Screenshots
 ***Function to render the License badge***
 
-<img src = "./assets/images/screenshot.png">
+<img src = "./assets/screenshot.png">
 
 ***Function to write the user input to the README.md file***
 ```
