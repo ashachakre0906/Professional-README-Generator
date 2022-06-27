@@ -16,6 +16,8 @@ The application will be invoked by using the following command `node index.js`.
 
 https://user-images.githubusercontent.com/101746882/176041401-0493dc19-2ee0-46cb-88cc-aff0b40959c6.mp4
 
+[Screencastify link](https://watch.screencastify.com/v/8YHL2N1DO9mlslHe7GUa)
+
 ## Installation
 * Install Node in your computer by going to `https://nodejs.org/en/download/`
 * Create .gitignore file before installing any npm dependencies and include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked or uploaded to GitHub.
