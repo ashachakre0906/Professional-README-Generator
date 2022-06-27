@@ -64,7 +64,7 @@ This project is license under the [License: Apache 2.0](https://opensource.org/l
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
 return `
-${data.title}
+# ${data.title}
 ## License
 ${renderLicenseBadge(data.license)}
 ## Description

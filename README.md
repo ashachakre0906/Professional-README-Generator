@@ -1,9 +1,9 @@
 
-Readme Generator
+# README Generator
 ## License
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Description
-We need to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.The application will be invoked by using the following command node index.js.
+We need to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.The application will be invoked by using the following command node index.js
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -12,9 +12,9 @@ We need to create a command-line application that dynamically generates a profes
 - [Tests](#tests)
 - [Contact](#contact)
 ## Installation
-npm istall  and npm inquirer
+npm install npm inquirer
 ## Usage
-screenshots
+Examples
 ## Contributing
 yes
 ## License
@@ -22,6 +22,6 @@ yes
 ## Tests
 test.js
 ## Questions
-Github Repo URL: [Github](https://github.com/ashachakre0906)<br>
-Email: chourpagar.asha@gmail.com
+Github Repo URL: [Github](https://github.com/Asha Chakre)<br>
+Email: email adress
  
