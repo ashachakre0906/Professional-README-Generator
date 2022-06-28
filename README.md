@@ -2,7 +2,6 @@
 ## License
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Table of Contents
-  - [License](#license)
   - [Description](#description)
   - [Application Demo](#application-demo)
   - [Installation](#installation)
