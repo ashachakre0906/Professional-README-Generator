@@ -14,7 +14,7 @@ The application will be invoked by using the following command `node index.js`.
 
 ## Application Demo
 
-https://user-images.githubusercontent.com/101746882/176041401-0493dc19-2ee0-46cb-88cc-aff0b40959c6.mp4
+https://user-images.githubusercontent.com/101746882/176094291-4f736a5b-9501-4dac-9139-b7fa3be2d0e0.mp4
 
 [Screencastify link](https://watch.screencastify.com/v/8YHL2N1DO9mlslHe7GUa)
 
