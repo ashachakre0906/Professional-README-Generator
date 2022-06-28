@@ -8,10 +8,7 @@ function renderLicenseBadge(license) {
   } else if (license === "MIT") {
     return "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
   } else if (license === "Mozilla") {
-    return (
-      yourLicense ===
-      "![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)"
-    );
+    return "![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)";
   } else if (license === "IBM") {
     return "![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)";
   } else if (license === "none") {
@@ -64,7 +61,7 @@ ${data.description}
 - [Contributing](#contributing)
 - ${renderLicenseLink(data.license)}
 - [Tests](#tests)
-- [Contact](#contact)
+- [Questions](#questions)
 ## Installation
 ${data.installation}
 ## Usage

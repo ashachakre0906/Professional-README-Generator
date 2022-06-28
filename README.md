@@ -2,18 +2,26 @@
 ## License
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Tests](#tests)
-- [Questions](#questions)
+  - [License](#license)
+  - [Description](#description)
+  - [Application Demo](#application-demo)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Code Examples and Screenshots](#code-examples-and-screenshots)
+  - [Contributing](#contributing)
+  - [License](#license-1)
+  - [Tests](#tests)
+  - [Technologies Used](#technologies-used)
+  - [Questions](#questions)
 ## Description
 The purpose of this project to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.`fs` for writing to the file system and`inquirer`package for collecting user input.
 The application will be invoked by using the following command `node index.js`.
 
 ## Application Demo
-<iframe src="https://drive.google.com/file/d/1JEvUXe9dDyd96IKUV4s-zD-dRa5q_IoY/preview" width="640" height="480" allow="autoplay"></iframe>
+
+https://user-images.githubusercontent.com/101746882/176094291-4f736a5b-9501-4dac-9139-b7fa3be2d0e0.mp4
+
+[Screencastify link](https://watch.screencastify.com/v/8YHL2N1DO9mlslHe7GUa)
 
 ## Installation
 * Install Node in your computer by going to `https://nodejs.org/en/download/`
@@ -48,9 +56,9 @@ function writeToFile(fileName, data) {
 ```
 
 ## Contributing
-not contributing at this time.
+not applicable at this time.
 ## License
-This project is license under the [License: MIT](https://opensource.org/licenses/MIT)
+This project is license under [License: MIT](https://opensource.org/licenses/MIT)
 ## Tests
 We dont have any test at this moment.
 ## Technologies Used
